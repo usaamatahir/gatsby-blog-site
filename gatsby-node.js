@@ -25,7 +25,6 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  console.log(result)
   result.data.allContentfulBlogPost.edges.forEach(data => {
     createPage({
       path: `/blogs/${data.node.slug}`,
