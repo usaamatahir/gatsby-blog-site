@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    overflow-x: hidden;
+}
+
+.NotFound {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.NotFound h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.NotFound {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.NotFoundImg {
+    object-fit: contain;
+    height: 500px;
+}

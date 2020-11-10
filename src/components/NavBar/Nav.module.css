@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navBar {
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0px 20px;
+    -webkit-box-shadow: 0 3px 3px #e0e0e0;
+    -moz-box-shadow: 0 3px 3px #e0e0e0;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    box-shadow: 0 3px 3px #e0e0e0;
+    z-index: 2;
+}
+
+.Logo {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #363636;
+    margin-left: 20px;
+}
+
+.Logo span {
+    color: #ff00ea;
+}
+
+.navLinks {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: #363636;
+    font-size: large;
+    font-weight: 800;
+    transition: 0.3s all;
+}
+
+.link:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #363636;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+@media screen and (max-width: 720px) {
+    .navBar {
+        width: 100%;
+        height: 8vh;
+        padding: 0px 5px;
+        -webkit-box-shadow: 0 3px 3px #e0e0e0;
+        -moz-box-shadow: 0 3px 3px #e0e0e0;
+        transition-timing-function: ease-in;
+        transition: all 0.5s;
+        box-shadow: 0 3px 3px #e0e0e0;
+        z-index: 2;
+    }
+
+    .menuIcon {
+        display: block;
+        z-index: 2;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .Logo {
+        font-size: large;
+        font-weight: 800;
+        color: #363636;
+        padding-left: 0px;
+    }
+
+    .navLinks {
+        width: 50vw;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vh;
+        justify-content: space-evenly;
+        top: 0;
+        right: -100%;
+        z-index: 1;
+        background-color: #ffffff;
+        border-left: 1px solid #dbdbdb;
+        -webkit-box-shadow: -5px 0 5px -5px #e0e0e0;
+        -moz-box-shadow: -5px 0 5px -5px #e0e0e0;
+        box-shadow: -5px 0 5px -5px #e0e0e0;
+        transition: 0.3s all;
+    }
+}
