@@ -7,7 +7,7 @@
     color: #d3d3d3;
 }
 
-@media screen and (max-width: 720px) and (min-width: 601px) {
+@media screen and (max-width: 720px) {
     .emailVerification {
         margin-top: 8vh;
         position: fixed;
