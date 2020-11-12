@@ -1,0 +1,8 @@
+.emailVerification {
+    margin-top: 12vh;
+    position: fixed;
+    width: 100vw;
+    padding: 5px 10px;
+    background-color: #000000da;
+    color: #d3d3d3;
+}

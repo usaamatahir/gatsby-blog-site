@@ -12,7 +12,9 @@ exports.createPages = async ({ graphql, actions }) => {
             slug
             publishedDate(fromNow: true)
             description {
-              json
+              childContentfulRichText {
+                html
+              }
             }
             image {
               fluid {

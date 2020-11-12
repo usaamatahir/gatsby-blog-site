@@ -1,0 +1,38 @@
+.form {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form h1 {
+    color: #ff00ea;
+}
+
+.submitBtn {
+
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background-color: #1b1b1b;
+    border: 1px solid #1f1f1f;
+    color: #fefefe;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3 all;
+    margin-bottom: 5px;
+}
+
+
+.submitBtn:hover {
+    background-color: #ff00ea;
+    border: 1px solid #ff00ee;
+}
+
+.Error {
+    color: #ff0000;
+    margin: 5px;
+}
