@@ -41,7 +41,7 @@ const Layout: FC<layoutProps> = ({ children }) => {
       {user && !user.emailVerified && (
         <div className={styles.emailVerification}>
           <span>
-            An email has been sent to your inbox. Please varify your email
+            An email has been sent to your inbox. Please verify your email
           </span>
         </div>
       )}
