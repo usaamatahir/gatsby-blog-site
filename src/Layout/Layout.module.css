@@ -6,3 +6,27 @@
     background-color: #000000da;
     color: #d3d3d3;
 }
+
+@media screen and (max-width: 720px) and (min-width: 601px) {
+    .emailVerification {
+        margin-top: 7vh;
+        position: fixed;
+        width: 100vw;
+        padding: 5px 10px;
+        background-color: #000000da;
+        color: #d3d3d3;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .emailVerification {
+        margin-top: 5vh;
+        position: fixed;
+        width: 100vw;
+        padding: 5px 10px;
+        background-color: #000000da;
+        color: #d3d3d3;
+    }
+
+}
